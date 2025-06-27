@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f2f5;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.controls {
+  margin: 20px;
+}
+
+#bars-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 400px;
+  margin: 30px auto;
+  width: 90%;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.bar {
+  width: 20px;
+  margin: 0 2px;
+  background-color: #3498db;
+  transition: height 0.3s ease, background-color 0.3s;
+}
